@@ -5,9 +5,9 @@ services:
     build: ./back
     container_name: django
     # Para criar o projeto do zero descomente linha 8 e comente a linha 10
-    stdin_open: true
+    # stdin_open: true
     # Para rodar o projeto descomente esta linha 10 e comente a linha 8
-    # command: cd workspace/news_api/ && python manage.py runserver 0.0.0.0:8000
+    command: cd workspace/news_api/ && python manage.py runserver 0.0.0.0:8000
     working_dir: /workspace
     volumes:
       - ./back/projeto/:/workspace
