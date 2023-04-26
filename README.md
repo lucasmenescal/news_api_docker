@@ -6,7 +6,7 @@ https://github.com/lucasmenescal/news_api
 1. Instalar Docker
 2. Clonar o repositório news_api_docker em uma pasta de sua escolha.
 3. Acessar a pasta /back e criar uma pasta chamada /projeto
-4. Clonar o repositorio https://github.com/lucasmenescal/news_api dentro dela.
+4. Clonar o repositorio https://github.com/lucasmenescal/news_api dentro da pasta /projeto.
 5. Voltar na pasta que contem o docker-compose.yml e rodar um comando via cmd:
 `docker-compose up -d`
 6. Acessar localhost:8000
