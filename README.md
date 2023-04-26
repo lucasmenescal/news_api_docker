@@ -1,4 +1,4 @@
-# nDockerfile e Docker-Compose para container Django.
+# Dockerfile e Docker-Compose para container Django.
 Este container foi feito para rodar a aplicação Django deste link:
 https://github.com/lucasmenescal/news_api
 
